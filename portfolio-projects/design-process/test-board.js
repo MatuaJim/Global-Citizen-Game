@@ -1,0 +1,1 @@
+export const addInsight=(board,{observation,friction,change})=>[...board,{observation,friction,change,status:"to test"}];\nexport const markTested=(board,index)=>board.map((item,i)=>i===index?{...item,status:"tested"}:item);\n
