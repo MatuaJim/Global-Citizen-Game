@@ -1,0 +1,1 @@
+const choices={"explain a strategy":"green","write my assignment":"red","family knowledge":"talk"};\nexport function checkChoice(choice){return choices[choice]??"pause";}\n
