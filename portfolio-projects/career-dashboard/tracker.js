@@ -1,0 +1,1 @@
+export function nextActions(applications){return applications.filter(a=>a.followUpDate&&!a.completed).sort((a,b)=>new Date(a.followUpDate)-new Date(b.followUpDate));}\n
