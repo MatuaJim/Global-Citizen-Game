@@ -1,0 +1,1 @@
+# Underwater Cleanup\n\nRun `pip install pygame` and then `python game.py`. Move with arrow keys or WASD. Collect five pieces of rubbish, avoid marine life, and finish within 45 seconds. Press R to restart.
