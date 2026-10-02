@@ -1,0 +1,1 @@
+const prices={"House wash":240,"Gutter clean":160,"Driveway treatment":180};\nexport const estimate=(services)=>services.reduce((total,item)=>total+(prices[item]||0),0);\n
