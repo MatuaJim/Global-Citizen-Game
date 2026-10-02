@@ -1,0 +1,1 @@
+import random\n\ndef simulate(home_rating, away_rating, runs=10000):\n    wins=0\n    margins=[]\n    for _ in range(runs):\n        margin=random.gauss(home_rating-away_rating,12)\n        margins.append(margin); wins += margin>0\n    return {"home_win_probability":wins/runs,"average_margin":sum(margins)/runs,"runs":runs}\n\nif __name__=="__main__": print(simulate(82,78))\n
