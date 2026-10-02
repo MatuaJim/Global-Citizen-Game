@@ -1,0 +1,1 @@
+export function pathway({confidence,teamSize,hasGuidance}){return {firstStep:hasGuidance?"Run a small approved pilot":"Agree responsible-use guidance",format:teamSize>12?"workshop":"coaching",support:confidence<3?"guided":"peer-led"};}\n
